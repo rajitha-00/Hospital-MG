@@ -120,7 +120,7 @@
                     <h2>This is Patient Register</h2>
                     <div class="formContainer">
                         <div class="row">
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Patient ID</label>
@@ -129,41 +129,8 @@
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col col-lg-3">
-                                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                                    </div>
-                                    <div class="col col-lg-6">
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                                    </div>
-                                </div>
-                                
-                                <div class="row">
-                                    <div class="col col-lg-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Date of Birth</label>
-                                    </div>
-                                    <div class="col col-lg-6">
-                                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col col-lg-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Age</label>
-                                    </div>
-                                    <div class="col col-lg-6">
-                                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col col-lg-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Contact</label>
-                                    </div>
-                                    <div class="col col-lg-6">
-                                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
-                                    </div>
-                                </div>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">NIC</label>
@@ -172,6 +139,20 @@
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
+                            </div>  
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Last Name</label>
@@ -180,6 +161,20 @@
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Date of Birth</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Gender</label>
@@ -202,6 +197,20 @@
                                         
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Age</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Address</label>
@@ -210,6 +219,20 @@
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Contact</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Email</label>
@@ -219,6 +242,9 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="row">
                             <div class="d-grid gap-2 col-2 mx-auto pt-3">
                                 <button type="button" class="btn btn-outline-primary btn-sm ">Create</button>
                             </div>
