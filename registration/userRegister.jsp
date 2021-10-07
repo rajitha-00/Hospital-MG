@@ -10,7 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/hospital.css">
     <title>Com Bank</title>
 </head>
 
@@ -114,7 +115,67 @@
                 </div>
             </div>
             <div class="col">
-                <h2>This is User Register</h2>
+                
+                <div class="wrapper">
+                    <h2>This is User Registration</h2>
+                    <div class="formContainer">
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">User ID</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Role</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected></option>
+                                            <option value="1">Admin</option>
+                                            <option value="2">Branch Manager</option>
+                                            <option value="3">Service Desk Manager</option>
+                                          </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="d-grid gap-2 col-2 mx-auto pt-3">
+                                <button type="button" class="btn btn-outline-primary btn-sm ">Create</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -10,7 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/hospital.css">
     <title>Com Bank</title>
 </head>
 
@@ -114,7 +115,84 @@
                 </div>
             </div>
             <div class="col">
-                <h2>This is Stock</h2>
+               
+                <div class="wrapper">
+                    <h2>This is Stock</h2>
+                    <div class="formContainer">
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Stock ID</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Medicine</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected></option>
+                                            <option value="1">Medicine 1</option>
+                                            <option value="2">Medicine 2</option>
+                                            <option value="3">Medicine 3</option>
+                                          </select>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Quantity</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Unit Price</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Total Amount</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="d-grid gap-2 col-2 mx-auto pt-3">
+                                <button type="button" class="btn btn-outline-primary btn-sm ">Create</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

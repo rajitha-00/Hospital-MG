@@ -115,7 +115,85 @@
                 </div>
             </div>
             <div class="col">
-                <h2>This is Ward Register</h2>
+               
+                <div class="wrapper">
+                    <h2>This is Ward Register</h2>
+                    <div class="formContainer">
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Ward ID</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Number of beds</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Head in charge</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Purpose</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Rates (Per-Bed)</label>
+                                    </div>
+                                    <div class="col col-lg-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="d-grid gap-2 col-2 mx-auto pt-3">
+                                <button type="button" class="btn btn-outline-primary btn-sm ">Create</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -23,6 +23,7 @@
         font-size: 18px;
         color: rgb(46, 45, 45);
     }
+    .form-select,
     .form-control {
         width: 100%;
         max-width: 390px;
@@ -34,4 +35,7 @@
 .flexBox{
     display: flex;
     justify-content: space-around;
+}
+.form-select {
+    border-radius: 10px !important;
 }

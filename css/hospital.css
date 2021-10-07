@@ -31,6 +31,7 @@
   color: #2e2d2d;
 }
 
+.formContainer .form-select,
 .formContainer .form-control {
   width: 100%;
   max-width: 390px;
@@ -45,5 +46,9 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.form-select {
+  border-radius: 10px !important;
 }
 /*# sourceMappingURL=hospital.css.map */
