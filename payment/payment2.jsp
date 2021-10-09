@@ -15,10 +15,10 @@
     <title>Com Bank</title>
 </head>
 
-<body>
+<body class="colBg">
     <div class="container-fluid">
         <div class="row flex-nowrap">
-            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="col-auto col-md-3 col-xl-2 sidebar">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <a href="../home.jsp" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                         <span class="fs-5 d-none d-sm-inline">Menu</span>
@@ -115,9 +115,11 @@
                 </div>
             </div>
             <div class="col">
-                
-                <div class="wrapper">
+                <div class="topic">
                     <h2>This is Payment 2</h2>
+                </div>
+                <div class="wrapper">
+                    
                     <div class="formContainer card">
                         <div class="row">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
@@ -125,7 +127,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Payment ID</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -135,7 +137,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Hospitalization ID</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected></option>
                                             <option value="1">Medicine 1</option>
@@ -152,7 +154,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Patient ID</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -162,12 +164,12 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col col-lg-10 col-md-10 col-xs-11">
+                            <div class="col col-lg-11 col-md-10 col-xs-11">
                                 <div class="row">
-                                    <div class="col col-lg-12">
-                                        <table class="table table-dark table-hover table-responsive">
+                                    <div class="col col-lg-12 mt-4">
+                                        <table class="table table-primary table-hover table-responsive">
                                             <thead>
-                                              <tr class=" table-dark">
+                                              <tr class=" table-primary">
                                                 <th scope="col">Description</th>
                                                 <th scope="col">Unit Price</th>
                                                 <th scope="col">Quantity</th>
@@ -175,19 +177,19 @@
                                               </tr>
                                             </thead>
                                             <tbody>
-                                              <tr class="table-dark"> 
+                                              <tr class="table-light"> 
                                                 <th scope="row">Med0012</th>
                                                 <td>Mark</td>
                                                 <td>Otto</td>
                                                 <td>@mdo</td>
                                               </tr>
-                                              <tr class="table-dark">
+                                              <tr class="table-light">
                                                 <th scope="row">Med0012</th>
                                                 <td>Jacob</td>
                                                 <td>Thornton</td>
                                                 <td>@fat</td>
                                               </tr>
-                                              <tr class="table-dark">
+                                              <tr class="table-light">
                                                 
                                                 <td colspan="2">Grand Total</td>
                                                 <td colspan="2">11110.000</td>
@@ -199,13 +201,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mt-4">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Paying Amount</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -221,19 +223,19 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Balance</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         
                                     </div>
                                     <div class="col col-lg-3">
                                         <div class="d-grid gap-2 col-12 mx-auto pt-3">
-                                            <button type="button" class="btn btn-outline-primary btn-sm ">Create</button>
+                                            <button type="button" class="btn btnSubmit btn-sm ">Pay</button>
                                         </div>
                                     </div>
                                 </div>
