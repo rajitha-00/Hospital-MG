@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col colBg">
                
                 <div class="wrapper">
                     <h2>This is Ward Register</h2>

@@ -118,7 +118,7 @@
                 
                 <div class="wrapper">
                     <h2>This is Payment 2</h2>
-                    <div class="formContainer">
+                    <div class="formContainer card">
                         <div class="row">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
