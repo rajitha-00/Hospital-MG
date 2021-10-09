@@ -11,13 +11,14 @@
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hospital.css">
     <title>Com Bank</title>
 </head>
 
-<body>
+<body class="colBg">
     <div class="container-fluid">
         <div class="row flex-nowrap">
-            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="col-auto col-md-3 col-xl-2 sidebar">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <a href="home.jsp" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                         <span class="fs-5 d-none d-sm-inline">Menu</span>
@@ -114,7 +115,10 @@
                 </div>
             </div>
             <div class="col">
-                <h2>This is Home</h2>
+                <div class="topic">
+                    <h2>This is Home</h2>
+                </div>
+               
             </div>
         </div>
     </div>
