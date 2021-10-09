@@ -15,10 +15,10 @@
     <title>Com Bank</title>
 </head>
 
-<body>
+<body class="colBg">
     <div class="container-fluid">
-        <div class="row flex-nowrap">
-            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+        <div class="row">
+            <div class="col-auto col-md-3 col-xl-2   sidebar">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <a href="../home.jsp" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                         <span class="fs-5 d-none d-sm-inline">Menu</span>
@@ -116,8 +116,10 @@
             </div>
             <div class="col">
                 
-                <div class="wrapper">
-                    <h2>This is Doctor Register</h2>
+                <div class="wrapper mt-lg-5">
+                    <div class="topic">
+                        <h2>This is Doctor Register</h2>
+                    </div>
                     <div class="formContainer">
                         <div class="row">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
@@ -125,7 +127,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Doctor ID</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -135,7 +137,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">NIC</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -147,7 +149,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">First Name</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -157,7 +159,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Last Name</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -169,7 +171,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Date of Birth</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -179,7 +181,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Gender</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <div class="flexBox">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -205,7 +207,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Contact</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -215,7 +217,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Email</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -228,7 +230,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Address</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -238,8 +240,8 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Educational Qualifications</label>
                                     </div>
-                                    <div class="col col-lg-6">
-                                        <textarea rows="5" cols="" class="form-control"></textarea> 
+                                    <div class="col col-lg-7">
+                                        <textarea rows="4" cols="" class="form-control"></textarea> 
                                     </div>
                                 </div>
                             </div>
@@ -250,7 +252,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Specification</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -260,8 +262,8 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Professional Qualifications</label>
                                     </div>
-                                    <div class="col col-lg-6">
-                                        <textarea rows="5" cols="" class="form-control"></textarea> 
+                                    <div class="col col-lg-7">
+                                        <textarea rows="4" cols="" class="form-control"></textarea> 
                                     </div>
                                     
                                 </div>
@@ -270,7 +272,7 @@
                         </div>
                         <div class="row">
                             <div class="d-grid gap-2 col-2 mx-auto pt-3">
-                                <button type="button" class="btn btn-outline-primary btn-sm ">Create</button>
+                                <button type="button" class="btn btnSubmit btn-sm ">Create</button>
                             </div>
                         </div>
                     </div>

@@ -124,7 +124,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Payment ID</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Hospitalization ID</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected></option>
                                             <option value="1">Medicine 1</option>
@@ -151,7 +151,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Doctor Fee</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -161,7 +161,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Hospital Fee</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Remarks</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <textarea rows="5" cols="" class="form-control"></textarea> 
                                     </div>
                                     
@@ -185,7 +185,7 @@
                             
                         </div>
                         <div class="row">
-                            <div class="col col-lg-10 col-md-10 col-xs-11">
+                            <div class="col col-lg-11 col-md-10 col-xs-11">
                                 <div class="row">
                                     <div class="col col-lg-12">
                                         <table class="table table-dark table-hover table-responsive">
@@ -229,14 +229,14 @@
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Total Payable</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-10 col-xs-11">
                                 <div class="row">
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         
                                     </div>
                                     <div class="col col-lg-3">
