@@ -18,7 +18,7 @@
 <body class="colBg">
     <div class="container-fluid">
         <div class="row flex-nowrap ">
-            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 sidebar">
+            <div class="col-auto col-md-3 col-xl-2 sidebar">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <a href="../home.jsp" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                         <span class="fs-5 d-none d-sm-inline">Menu</span>
@@ -251,6 +251,99 @@
                             </div>
                         </div>
                     </div>
+                    <div class="tblContainer">
+                        <div class="row">
+                            <div class="col col-lg-10 col-md-10 col-xs-11">
+                                <div class="row">
+                                    <div class="col col-lg-12 mt-4">
+                                        <table class="table table-primary table-hover table-responsive">
+                                            <thead>
+                                              <tr class=" table-primary">
+                                                <th scope="col">Medicine</th>
+                                                <th scope="col">Unit Price</th>
+                                                <th scope="col">Quantity</th>
+                                                <th scope="col">Total Amount</th>
+                                                <th scope="col"></th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr class="table-light"> 
+                                                <th scope="row">Med0012</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr><tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                          </table>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
