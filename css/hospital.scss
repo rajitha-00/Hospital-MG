@@ -1,6 +1,12 @@
 .colBg{
     background: #e4e0e0 !important;
 }
+.pg1{
+background-image: url(https://cdn.luxe.digital/media/2020/12/15110747/fastest-cars-world-2021-luxe-digital%402x.jpg);
+}
+.pg2{
+    background-image: url(https://www.motortrend.com/uploads/sites/5/2020/10/2021-SSC-Tuatara-Reruns-Record-Car-Front-3.4.jpg?fit=around%7C875:492);
+}
 .topic{
     position: absolute;
     top: 10px;
@@ -59,7 +65,7 @@
     background: #ffffff;
     box-shadow:  9px 9px 28px #d1d1d1,
                 -9px -9px 28px #e9e9e9;
-    justify-content: center;
+    justify-content: center !important;
     margin-left: auto;
     margin-right: auto;
     
@@ -75,10 +81,15 @@
     border-radius: 10px !important;
 }
 .sidebar{
-    position: relative;
+   
+    top: 0;
+    width:240px;
+    position: fixed;
     height: 100%;
-    min-height: 110vh;
     background: #1a213a;
+    transition: width 300ms;
+    // box-shadow: 0px 2px 4px 0 $shadow-color;
+    z-index: 100;
     
     .nav-link {
         display: block;
@@ -92,9 +103,9 @@
         &:active{
             color: #373737;
         }
+
     }
-}
-#submenu1,
+    #submenu1,
 #submenu2,
 #submenu3{
     padding-left:  1rem;
@@ -113,6 +124,12 @@
         }
     }
 }
+}
+.main-content{
+    margin-left: 240px;
+    transition: margin-left 300ms;
+}
+
 .btnSubmit{
     margin-top: 5px;
     background: #1a213a;
@@ -122,3 +139,56 @@
         color: #ffffff;
     }
 }
+.centerCont{
+    justify-content: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//   @media only screen and (min-width: 768px){
+    
+//     .sidebar{
+//         width: 70px;
+//     }
+//     .main-content{
+//         margin-left: 70px;
+//     }
+// }
+@media only screen and (max-width: 600px){
+    .sidebar{
+        width: 70px;
+        .nav-link{
+            span{
+                display: none !important;
+            }
+        }
+        
+    }
+
+    .main-content{
+        margin-left: 70px;
+        
+    }
+    
+}
+
+
+@media only screen and (max-width: 900px){
+    .sidebar{
+        width: 70px;
+        .nav-link{
+            span{
+                display: none !important;
+            }
+        }
+        
+    }
+
+    .main-content{
+        margin-left: 70px;
+        
+    }
+}
+
+    
+    
