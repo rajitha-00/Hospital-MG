@@ -154,6 +154,27 @@ background-image: url(https://cdn.luxe.digital/media/2020/12/15110747/fastest-ca
 //         margin-left: 70px;
 //     }
 // }
+.flexList{
+    display: flex;
+    list-style: none;
+    li{
+        // padding-left: 5px;
+        // padding-right: 5px;
+        button{
+            background: transparent;
+            border: none;
+            border-radius: 50%;
+            width:40px;
+            height:40px;
+            
+            justify-content: center;
+            &:hover{
+                background: rgba(255, 255, 255, 0.5);
+                backdrop-filter: blur(30px);
+            }
+        }
+    }
+}
 @media only screen and (max-width: 600px){
     .sidebar{
         width: 70px;

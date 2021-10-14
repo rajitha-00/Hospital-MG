@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -24,12 +25,12 @@
             <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                 <li class="nav-item">
                     <a href="../home.jsp" class="nav-link align-middle px-0">
-                        <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                        <i class="fas fa-home"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                     </a>
                 </li>
                 <li>
                     <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                        <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Registration</span> </a>
+                        <i class="fas fa-tasks"></i> <span class="ms-1 d-none d-sm-inline">Management</span> </a>
                     <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                         <li class="w-100">
                             <a href="patientRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient Registration</span> </a>
@@ -53,11 +54,11 @@
                 </li>
                 <li>
                     <a href="../stockmgmt.jsp" class="nav-link px-0 align-middle">
-                        <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Stock</span></a>
+                        <i class="fas fa-cubes"></i> <span class="ms-1 d-none d-sm-inline">Stock</span></a>
                 </li>
                 <li>
                     <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                        <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Payments</span></a>
+                        <i class="fas fa-credit-card"></i> <span class="ms-1 d-none d-sm-inline">Payments</span></a>
                     <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
                         <li class="w-100">
                             <a href="../payment/payment1.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Bill Payment</span> 1</a>
@@ -87,11 +88,11 @@
                 </li> -->
                 <li>
                     <a href="../hospitalization.jsp" class="nav-link px-0 align-middle">
-                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Hospitalization</span> </a>
+                        <i class="fas fa-user-nurse"></i> <span class="ms-1 d-none d-sm-inline">Hospitalization</span> </a>
                 </li>
                 <li>
                     <a href="../patientTransfer.jsp" class="nav-link px-0 align-middle">
-                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Patient Transfer</span> </a>
+                        <i class="fas fa-exchange-alt"></i> <span class="ms-1 d-none d-sm-inline">Patient Transfer</span> </a>
                 </li>
             </ul>
             <hr>
@@ -116,7 +117,7 @@
         <div class="topic">
             <h2>This is Patient Register</h2>
         </div>
-        <div class="wrapper">
+        <div class="wrapper mt-lg-3">
             <div class="formContainer ">
                 <div class="row centerCont">
                     <div class="col col-lg-6 col-md-10 col-xs-11">
@@ -124,7 +125,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">Patient ID</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -134,7 +135,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">NIC</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -146,7 +147,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">First Name</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -156,7 +157,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">Last Name</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -168,7 +169,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">Date of Birth</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -178,7 +179,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">Gender</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <div class="flexBox">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -204,7 +205,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">Age</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -214,7 +215,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">Address</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -226,7 +227,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">Contact</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -236,7 +237,7 @@
                             <div class="col col-lg-3">
                                 <label for="exampleFormControlInput1" class="form-label">Email</label>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-lg-7">
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                         </div>
@@ -270,69 +271,119 @@
                                         <td>Mark</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                       <tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                       <tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                       <tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                       <tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                       <tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr><tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                       <tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                       <tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                       <tr class="table-light">
                                         <th scope="row">Med0012</th>
                                         <td>Jacob</td>
                                         <td>Thornton</td>
                                         <td>@fat</td>
-                                        <td>@mdo</td>
+                                        <td>
+                                            <ul class="flexList">
+                                                <li> <button><i class="far fa-edit"></i></button></li>
+                                                <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                            </ul>
+                                        </td>
                                       </tr>
                                   </table>
 
