@@ -113,72 +113,72 @@
             </div>
         </div>
     </div>
-            <div class="main-content">
+    <div class="main-content">
                <div class="topic"><h2>This is Ward Register</h2></div>
-                <div class="wrapper">
+                <div class="wrapper mt-lg-3">
                     
                     <div class="formContainer">
-                        <div class="row">
+                        <div class="row centerCont">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Ward ID</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Name</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
                             </div>  
                         </div>
-                        <div class="row">
+                        <div class="row centerCont">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Number of beds</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Head in charge</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row centerCont">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Purpose</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Rates (Per-Bed)</label>
                                     </div>
-                                    <div class="col col-lg-6">
+                                    <div class="col col-lg-7">
                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                                     </div>
 
@@ -186,9 +186,151 @@
                             </div>
                         </div>
                         
-                        <div class="row">
+                        <div class="row centerCont">
                             <div class="d-grid gap-2 col-2 mx-auto pt-3">
                                 <button type="button" class="btn btnSubmit btn-sm ">Create</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tblContainer">
+                        <div class="row centerCont">
+                            <div class="col col-lg-11 col-md-10 col-xs-11">
+                                
+                                
+                                        <table class="table table-primary table-hover table-responsive">
+                                            <thead>
+                                              <tr class=" table-primary">
+                                                <th scope="col">Medicine</th>
+                                                <th scope="col">Unit Price</th>
+                                                <th scope="col">Quantity</th>
+                                                <th scope="col">Total Amount</th>
+                                                <th scope="col"></th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr class="table-light"> 
+                                                <th scope="row">Med0012</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr><tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                          </table>
+        
+                                   
+                                          
                             </div>
                         </div>
                     </div>
