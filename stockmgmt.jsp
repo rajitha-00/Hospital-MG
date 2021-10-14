@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -16,9 +17,8 @@
 </head>
 
 <body class="colBg">
-    <div class="container-fluid">
-        <div class="row flex-nowrap">
-            <div class="col-auto col-md-3 col-xl-2 sidebar">
+    
+            <div class="sidebar">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <a href="home.jsp" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                         <span class="fs-5 d-none d-sm-inline">Menu</span>
@@ -26,12 +26,12 @@
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item">
                             <a href="home.jsp" class="nav-link align-middle px-0">
-                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                                <i class="fas fa-home"></i>  <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
                         </li>
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Registration</span> </a>
+                                <i class="fas fa-tasks"></i> <span class="ms-1 d-none d-sm-inline">Registration</span> </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
                                     <a href="registration/patientRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient Registration</span> </a>
@@ -55,11 +55,11 @@
                         </li>
                         <li>
                             <a href="stockmgmt.jsp" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Stock</span></a>
+                                <i class="fas fa-cubes"></i> <span class="ms-1 d-none d-sm-inline">Stock</span></a>
                         </li>
                         <li>
                             <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                                <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Payments</span></a>
+                                <i class="fas fa-credit-card"></i> <span class="ms-1 d-none d-sm-inline">Payments</span></a>
                             <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
                                 <li class="w-100">
                                     <a href="payment/payment1.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Bill Payment</span> 1</a>
@@ -89,11 +89,11 @@
                         </li> -->
                         <li>
                             <a href="hospitalization.jsp" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Hospitalization</span> </a>
+                                <i class="fas fa-user-nurse"></i> <span class="ms-1 d-none d-sm-inline">Hospitalization</span> </a>
                         </li>
                         <li>
                             <a href="patientTransfer.jsp" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Patient Transfer</span> </a>
+                                <i class="fas fa-exchange-alt"></i> <span class="ms-1 d-none d-sm-inline">Patient Transfer</span> </a>
                         </li>
                     </ul>
                     <hr>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="main-content">
                <div class="topic">
                 <h2>This is Stock</h2>
                </div>
@@ -196,8 +196,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        
+
     
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
