@@ -33,22 +33,22 @@
                         <i class="fas fa-tasks"></i> <span class="ms-1 d-none d-sm-inline">Management</span> </a>
                     <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                         <li class="w-100">
-                            <a href="patientRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient Registration</span> </a>
+                            <a href="patientRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient Management</span> </a>
                         </li>
                         <li>
-                            <a href="doctorRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Doctor Registration</span></a>
+                            <a href="doctorRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Doctor Management</span></a>
                         </li>
                         <li>
-                            <a href="wardRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Ward Registration</span></a>
+                            <a href="wardRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Ward Management</span></a>
                         </li>
                         <li>
-                            <a href="branchRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Branch Registration</span></a>
+                            <a href="branchRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Branch Management</span></a>
                         </li>
                         <li>
-                            <a href="userRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">User Registration</span></a>
+                            <a href="userRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">User Management</span></a>
                         </li>
                         <li>
-                            <a href="medicineRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Medicine Registration</span></a>
+                            <a href="medicineRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Medicine Management</span></a>
                         </li>
                     </ul>
                 </li>

@@ -30,6 +30,63 @@
   background: #e4e0e0b9;
 }
 
+.loginContainer {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 8px;
+  background: #ffffff;
+  -webkit-box-shadow: 9px 9px 28px #d1d1d1, -9px -9px 28px #e9e9e9;
+          box-shadow: 9px 9px 28px #d1d1d1, -9px -9px 28px #e9e9e9;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.loginContainer .form-select,
+.loginContainer .form-control {
+  font-size: 14px;
+  font-weight: 600;
+  color: #151414;
+  background: #e6e2e2;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.loginBox,
+.loginTxtBox {
+  max-width: 300px;
+  padding: 50px 20px 50px 0px;
+}
+
+.loginBox {
+  text-align: center;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
+
+.btnlogin {
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #1a213a;
+  color: #fff;
+  border-radius: 20px;
+  padding-bottom: 3px;
+}
+
+.btnlogin:hover {
+  background: #212a4a;
+  color: #fff;
+}
+
 .formContainer {
   position: relative;
   width: 100%;
@@ -58,9 +115,8 @@
   font-size: 14px;
   font-weight: 600;
   color: #373737;
-  background: #d8d8d8;
+  background: #e6e2e2;
   width: 100%;
-  margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
 }
@@ -79,6 +135,14 @@
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 40px;
+}
+
+.tblContainer tr {
+  text-align: center;
+}
+
+.tblContainer tr td {
+  padding-top: 10px;
 }
 
 .flexBox {
@@ -107,7 +171,7 @@
 .sidebar .nav-link {
   display: block;
   padding: .5rem .7rem;
-  color: #bec2c9;
+  color: #d3d4d5;
   text-decoration: none;
   -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -174,6 +238,7 @@
           justify-content: center !important;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
 }
 
 .flexList {
@@ -222,5 +287,15 @@
   .main-content {
     margin-left: 70px;
   }
+}
+
+.left-text {
+  text-align: left !important;
+  padding-bottom: 10px;
+}
+
+.left-text label {
+  color: #1a213a;
+  font-size: 14px;
 }
 /*# sourceMappingURL=hospital.css.map */

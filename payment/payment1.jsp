@@ -31,25 +31,25 @@
                         </li>
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fas fa-tasks"></i> <span class="ms-1 d-none d-sm-inline">Registration</span> </a>
+                                <i class="fas fa-tasks"></i> <span class="ms-1 d-none d-sm-inline">Management</span> </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
-                                    <a href="../registration/patientRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient Registration</span> </a>
+                                    <a href="../registration/patientRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient Management</span> </a>
                                 </li>
                                 <li>
-                                    <a href="../registration/doctorRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Doctor Registration</span></a>
+                                    <a href="../registration/doctorRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Doctor Management</span></a>
                                 </li>
                                 <li>
-                                    <a href="../registration/wardRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Ward Registration</span></a>
+                                    <a href="../registration/wardRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Ward Management</span></a>
                                 </li>
                                 <li>
-                                    <a href="../registration/branchRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Branch Registration</span></a>
+                                    <a href="../registration/branchRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Branch Management</span></a>
                                 </li>
                                 <li>
-                                    <a href="../registration/userRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">User Registration</span></a>
+                                    <a href="../registration/userRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">User Management</span></a>
                                 </li>
                                 <li>
-                                    <a href="../registration/medicineRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Medicine Registration</span></a>
+                                    <a href="../registration/medicineRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Medicine Management</span></a>
                                 </li>
                             </ul>
                         </li>
