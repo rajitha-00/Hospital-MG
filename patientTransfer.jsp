@@ -31,25 +31,25 @@
                         </li>
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fas fa-tasks"></i> <span class="ms-1 d-none d-sm-inline">Registration</span> </a>
+                                <i class="fas fa-tasks"></i> <span class="ms-1 d-none d-sm-inline">Management</span> </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
-                                    <a href="registration/patientRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient Registration</span> </a>
+                                    <a href="registration/patientRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient Management</span> </a>
                                 </li>
                                 <li>
-                                    <a href="registration/doctorRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Doctor Registration</span></a>
+                                    <a href="registration/doctorRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Doctor Management</span></a>
                                 </li>
                                 <li>
-                                    <a href="registration/wardRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Ward Registration</span></a>
+                                    <a href="registration/wardRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Ward Management</span></a>
                                 </li>
                                 <li>
-                                    <a href="registration/branchRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Branch Registration</span></a>
+                                    <a href="registration/branchRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Branch Management</span></a>
                                 </li>
                                 <li>
-                                    <a href="registration/userRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">User Registration</span></a>
+                                    <a href="registration/userRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">User Management</span></a>
                                 </li>
                                 <li>
-                                    <a href="registration/medicineRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Medicine Registration</span></a>
+                                    <a href="registration/medicineRegister.jsp" class="nav-link px-0"> <span class="d-none d-sm-inline">Medicine Management</span></a>
                                 </li>
                             </ul>
                         </li>
@@ -118,12 +118,12 @@
                 <div class="topic">
                     <h2>This is Patient Transfer</h2>
                 </div>
-                <div class="wrapper">
+                <div class="wrapper mt-lg-3">
                     
                     <div class="formContainer">
-                        <div class="row">
+                        <div class="row centerCont">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Transfer ID</label>
                                     </div>
@@ -133,7 +133,7 @@
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Hospitalization ID</label>
                                     </div>
@@ -144,9 +144,9 @@
                             </div>  
                         </div>
                         
-                        <div class="row">
+                        <div class="row centerCont">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Date of Transfer</label>
                                     </div>
@@ -156,7 +156,7 @@
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Transferring Branch</label>
                                     </div>
@@ -171,9 +171,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row centerCont">
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Appointed Doctor</label>
                                     </div>
@@ -188,7 +188,7 @@
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Reason</label>
                                     </div>
@@ -199,10 +199,10 @@
                             </div>
                         </div>
                         
-                        <div class="row">
+                        <div class="row centerCont">
                             
                             <div class="col col-lg-12 col-md-10 col-xs-11">
-                                <div class="row">
+                                <div class="row centerCont">
                                     <div class="col col-lg-3">
                                         <label for="exampleFormControlInput1" class="form-label">Educational Qualifications</label>
                                     </div>
@@ -213,9 +213,151 @@
                             </div>
                         </div>
                         
-                        <div class="row">
+                        <div class="row centerCont">
                             <div class="d-grid gap-2 col-2 mx-auto pt-3">
                                 <button type="button" class="btn btnSubmit btn-sm ">Create</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tblContainer">
+                        <div class="row centerCont ">
+                            <div class="col col-lg-11 col-md-10 col-xs-11">
+                                
+                                
+                                        <table class="table table-primary table-hover table-responsive">
+                                            <thead>
+                                              <tr class=" table-primary">
+                                                <th scope="col">Medicine</th>
+                                                <th scope="col">Unit Price</th>
+                                                <th scope="col">Quantity</th>
+                                                <th scope="col">Total Amount</th>
+                                                <th scope="col"></th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr class="table-light"> 
+                                                <th scope="row">Med0012</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr><tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                              <tr class="table-light">
+                                                <th scope="row">Med0012</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>
+                                                    <ul class="flexList">
+                                                        <li> <button><i class="far fa-edit"></i></button></li>
+                                                        <li><button> <i class="far fa-trash-alt"></i></button></li>
+                                                    </ul>
+                                                </td>
+                                              </tr>
+                                          </table>
+        
+                                   
+                                          
                             </div>
                         </div>
                     </div>
