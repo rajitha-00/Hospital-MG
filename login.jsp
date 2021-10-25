@@ -21,10 +21,8 @@
                         <div class="col col-lg-6 col-xs-10">
                             <div class="loginTxtBox">
                                 <h3>Welcome</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, 
-                                    fugit quos veritatis cupiditate distinctio ipsum! Sint ipsam fugiat 
-                                    perspiciatis temporibus dolorum quod consectetur laboriosam distinctio 
-                                    sed ab, illo et magni!
+                                <p>
+                                    This is a test para
                                 </p>
                             </div>
                             
